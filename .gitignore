@@ -104,3 +104,15 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Third-party Asset Store / external assets (see Packages/THIRD_PARTY_ASSETS.md)
+/Assets/DamageNumbersPro/
+/Assets/DamageNumbersPro.meta
+/Assets/RPG Tiny Hero Duo/
+/Assets/RPG Tiny Hero Duo.meta
+/Assets/DoubleL/
+/Assets/DoubleL.meta
+/Assets/TextFont/
+/Assets/TextFont.meta
+/Assets/Animation/HitReaction/
+/Assets/Animation/HitReaction.meta

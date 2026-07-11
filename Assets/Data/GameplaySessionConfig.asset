@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1a2b3c4d5e6478990a1b2c3d4e5f604, type: 3}
+  m_Name: GameplaySessionConfig
+  m_EditorClassIdentifier: 
+  _skillCatalog: {fileID: 11400000, guid: d1e2f3a4b5c6478990a1b2c3d4e5f711, type: 2}
+  _itemCatalog: {fileID: 11400000, guid: d1e2f3a4b5c6478990a1b2c3d4e5f712, type: 2}
+  _skillSlot0:
+    SkillId: fireball
+  _skillSlot1:
+    SkillId: lightingball
+  _skillSlot2:
+    SkillId: shield
+  _itemSlot0:
+    ItemId: heal_potion_pickup
+  _itemSlot1:
+    ItemId: fire_potion
+  _itemSlot2:
+    ItemId: 
+  _statusCatalog: {fileID: 11400000, guid: e1f2a3b4c5d6478990a1b2c3d4e5f903, type: 2}
+  _playerMovement: {fileID: 11400000, guid: c1f00000000000000000000000000004, type: 2}
+  _inputActions: {fileID: -944628639613478452, guid: bd88b2013afbb9146a67b3744be9de2a,
+    type: 3}

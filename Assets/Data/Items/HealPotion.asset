@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba3ee82c06747ab49a5591c92de77728, type: 3}
+  m_Name: HealPotion
+  m_EditorClassIdentifier: 
+  Id: heal_potion
+  DisplayName: "\u6CBB\u7597\u836F\u6C34"
+  Description: "\u89E6\u78B0\u5373\u6062\u590D\u751F\u547D\uFF0C\u4E0D\u8FDB\u5165\u80CC\u5305"
+  EffectProfile:
+    Damage:
+      Enabled: 0
+      Amount: 0
+    Heal:
+      Enabled: 1
+      Amount: 30
+    StatusEffects: []
+    AreaRadius: 0
+  Icon: {fileID: 21300000, guid: 783fbec732b87c949a61f0afa2bb0ff1, type: 3}
+  TriggerType: 0
+  Charges: 1

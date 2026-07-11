@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 117988f41ca73ba46a4da0a96b14ad9e, type: 3}
+  m_Name: Burn
+  m_EditorClassIdentifier: 
+  Id: burn
+  DisplayName: "\u70C8\u4F24"
+  Kind: 3
+  TickIntervalSeconds: 1
+  Description: "\u6307\u5B9A\u65F6\u95F4\u5185\u6309\u95F4\u9694\u53D7\u5230\u56FA\u5B9A\u4F24\u5BB3"

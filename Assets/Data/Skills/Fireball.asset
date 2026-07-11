@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e557b6fa223144fa755378c1878515, type: 3}
+  m_Name: Fireball
+  m_EditorClassIdentifier: 
+  Id: fireball
+  DisplayName: "\u706B\u7403"
+  Description: "\u53D1\u5C04\u706B\u7403\u6295\u5C04\u7269"
+  Icon: {fileID: 21300000, guid: 46174ecf9778a7a4da50105b05a460bd, type: 3}
+  Kind: 0
+  CastClip: {fileID: -2067783166625815706, guid: 0b3e5963bdf3fdb4a8767f6c2ef432fe,
+    type: 3}
+  PreCastSeconds: 1
+  DurationSeconds: 0
+  PostCastSeconds: 1
+  CooldownSeconds: 2
+  IsActiveSkill: 1
+  Delivery: {fileID: 11400000, guid: a4f1b2c3d4e5478990a1b2c3d4e5f704, type: 2}
+  Effect: {fileID: 11400000, guid: a4f1b2c3d4e5478990a1b2c3d4e5f705, type: 2}

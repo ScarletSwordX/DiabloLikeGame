@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba3ee82c06747ab49a5591c92de77728, type: 3}
+  m_Name: FirePotion
+  m_EditorClassIdentifier: 
+  Id: fire_potion
+  DisplayName: "\u706B\u7130\u836F\u6C34"
+  Description: "\u4E3B\u52A8\u4F7F\u7528\u540E\u5BF9\u5468\u56F4\u654C\u4EBA\u65BD\u52A0\u70C8\u4F24"
+  EffectProfile:
+    Damage:
+      Enabled: 0
+      Amount: 0
+    Heal:
+      Enabled: 0
+      Amount: 0
+    StatusEffects:
+    - Enabled: 1
+      StatusId: burn
+      Magnitude: 5
+      DurationSeconds: 6
+      Stacks: 1
+    AreaRadius: 4
+  Icon: {fileID: 21300000, guid: f71f978814084204ca308e407608c161, type: 3}
+  TriggerType: 1
+  Charges: 1
