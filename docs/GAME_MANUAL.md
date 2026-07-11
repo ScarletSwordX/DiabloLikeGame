@@ -1,6 +1,6 @@
 # 游戏操作说明书
 
-面向试玩者与评审：如何在 Main 场景中操作角色、理解 UI 与反馈。
+面向玩家与开发者：如何在 Main 场景中操作角色、理解 UI 与反馈。
 
 相关配置说明见 [GUIDE_ADD_SKILL_ITEM.md](./GUIDE_ADD_SKILL_ITEM.md)；技术事件流见 [SYSTEM_IO_CONVENTION.md](./SYSTEM_IO_CONVENTION.md)。
 
@@ -9,10 +9,11 @@
 ## 1. 启动游戏
 
 1. Unity 2022.3 LTS 打开项目根目录。
-2. 打开场景 `Assets/Scenes/Main.unity`。
-3. 点击 **Play**。
+2. 按 [Packages/THIRD_PARTY_ASSETS.md](../Packages/THIRD_PARTY_ASSETS.md) 导入第三方资源（角色、动画、飘字、字体等）。
+3. 打开场景 `Assets/Scenes/Main.unity`。
+4. 点击 **Play**。
 
-首次克隆仓库若缺少数据，可先执行菜单 **Gameplay → Create P0 Default Assets** 与 **Gameplay → Ensure Scene Bootstrap**。
+首次克隆若缺少默认数据，可执行菜单 **Gameplay → Create P0 Default Assets** 与 **Gameplay → Ensure Scene Bootstrap**。
 
 ---
 
@@ -94,7 +95,7 @@
 
 ---
 
-## 7. 修改配置后如何验证（CHALLENGE 用例）
+## 7. 修改配置后如何验证
 
 - 在 `Assets/Data/Skills/Fireball.asset` 中把伤害改为 **50** 或冷却改为 **5**，Play 后火球表现应变化。
 - 在 `Assets/Data/GameplaySessionConfig.asset` 中把 `_skillSlot1` 改为 `shield`，Reload 后 **2** 键应为护盾。

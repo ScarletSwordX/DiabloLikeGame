@@ -25,7 +25,7 @@
 
 ### 2.1 复制现有技能（推荐）
 
-以 **HeavyFireball** 为例（CHALLENGE 扩展性用例；仓库已含现成资产 `Assets/Data/Skills/HeavyFireball.asset`）：
+以 **HeavyFireball** 为例（演示配置扩展性；仓库已含现成资产 `Assets/Data/Skills/HeavyFireball.asset`）：
 
 1. 在 Project 窗口复制 `Assets/Data/Skills/Fireball.asset` → 重命名为 `HeavyFireball.asset`（或直接使用已有 `HeavyFireball.asset` 作参考）。
 2. 修改 **SkillData** 字段：

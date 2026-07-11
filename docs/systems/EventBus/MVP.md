@@ -1,14 +1,11 @@
 # EventBus MVP
 
-## MVP-0
+## v0.1 已交付
 
-- [ ] 静态或场景单例 EventBus
-- [ ] 至少支持：HealthChanged, CooldownStateChanged, ItemPickedUp, SkillCastSucceeded
+- [x] 场景单例 `GameEventBus`
+- [x] 战斗/技能/道具/伤害事件：`HealthChanged`、`CooldownStateChanged`、`ItemPickedUp`、`SkillCastSucceeded`、`DamageDealtEvent` 等
 
-## MVP-1
+## 后续规划
 
-- [ ] 全部 CHALLENGE 事件节点有对应事件
-
-## Post-MVP
-
-- 事件录制回放（调试用）
+- [ ] `EnemyDiedEvent`、`SkillUnlockedEvent` 等元系统事件（阶段二/三）
+- [ ] 事件录制回放（调试用，可选）

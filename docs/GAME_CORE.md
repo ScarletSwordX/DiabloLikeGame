@@ -4,7 +4,7 @@
 
 俯视角 **类暗黑破坏神（Diablo-like）战斗 Demo**：清怪 → 获得经验与掉落 → 成长与配装 → 更强技能循环；技能与道具**数据驱动**（ScriptableObject），便于策划迭代。
 
-> 仓库原始需求见 [CHALLENGE.md](../CHALLENGE.md)（训练场式可配置原型）。本 Demo 在保留「配置 + 事件 + 自测」交付能力的前提下，**产品愿景升级为 Diablo-like**；分阶段任务见 [TASK_BACKLOG.md](./TASK_BACKLOG.md)。
+分阶段规划与版本边界见 [TASK_BACKLOG.md](./TASK_BACKLOG.md)。
 
 ## 核心体验目标（完整版）
 
@@ -41,17 +41,19 @@ flowchart LR
 
 任务与 DoD 详见 [TASK_BACKLOG.md](./TASK_BACKLOG.md)。
 
-## 当前代码与愿景差距（2025-06）
+## 当前版本能力（v0.1）
 
-| 愿景能力 | 代码现状 |
-|----------|----------|
-| 非指向 AOE 伤害 | 有 `Targeting.NonTargeted`，默认火球为指向性，需改配置/默认技能 |
-| 恢复道具 | ✅ `heal_potion` + `EffectProfile.Heal` |
-| 无动画假人 | ✅ 站桩假人（Animator 可选） |
-| 击杀掉落 | ❌ 假人不死亡、无 `LootTable` |
-| 靠近拾取进背包 | ⚠️ 场景固定药水 + 次数快捷栏，**非**背包 |
-| 经验解锁技能 | ❌ |
-| 自由配置技能栏 | ⚠️ 固定 `GameBootstrap` 装备数组 |
+| 能力 | 状态 |
+|------|------|
+| 3 技能 + 多道具 SO、冷却、状态、投射物 | ✅ 已实现 |
+| 玩家 locomotion + 战斗动画、Cinemachine 3C | ✅ 已实现 |
+| 敌人受击表现、站桩假人 | ✅ 已实现 |
+| HUD / DPS / 伤害飘字、EditMode + Play 自测 | ✅ 已实现 |
+| 数据驱动扩展（复制 `HeavyFireball` 等） | ✅ 已实现 |
+| 击杀掉落 | ❌ 规划中 |
+| 背包与自动拾取 | ⚠️ 场景固定拾取 + 快捷栏次数，非完整背包 |
+| 经验解锁技能 | ❌ 规划中 |
+| 自由配置技能栏 UI | ⚠️ 固定 `GameplaySessionConfig` Loadout |
 
 ## 明确不做（全阶段）
 

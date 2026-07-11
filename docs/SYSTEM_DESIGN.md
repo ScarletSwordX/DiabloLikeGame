@@ -1,6 +1,6 @@
 # 系统策划总纲
 
-> 产品愿景：俯视角类 Diablo Demo。分阶段任务见 [TASK_BACKLOG.md](./TASK_BACKLOG.md)。  
+> 产品愿景：俯视角类 Diablo Demo。版本路线图见 [TASK_BACKLOG.md](./TASK_BACKLOG.md)。  
 > 各系统详情见 `docs/systems/<SystemId>/`。  
 > **试玩**：[GAME_MANUAL.md](./GAME_MANUAL.md) · **扩展内容**：[GUIDE_ADD_SKILL_ITEM.md](./GUIDE_ADD_SKILL_ITEM.md)
 

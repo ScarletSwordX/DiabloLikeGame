@@ -11,7 +11,7 @@
 ## 阶段二
 
 - [ ] ≥3 技能 SO（指向/非指向/状态混合）
-- [x] `heavy_fireball` 等复制扩展（CHALLENGE 用例 4）
+- [x] `heavy_fireball` 等复制扩展（配置驱动验证用例）
 
 ## 阶段三
 
